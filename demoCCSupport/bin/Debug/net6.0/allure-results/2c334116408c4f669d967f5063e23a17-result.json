@@ -1,0 +1,190 @@
+{
+  "uuid": "d040be69037a4946aeabcc94e349dbe7",
+  "historyId": "Adding user in CCSupport.",
+  "fullName": "Adding user in CCSupport.",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "ENG-SMKBKC5RMNB"
+    },
+    {
+      "name": "feature",
+      "value": "Feature1"
+    },
+    {
+      "name": "tag",
+      "value": "browser"
+    }
+  ],
+  "links": [],
+  "name": "Adding user in CCSupport.",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Interface cannot be resolved: OpenQA.Selenium.IWebDriver",
+    "trace": "BoDi.ObjectContainerException: Interface cannot be resolved: OpenQA.Selenium.IWebDriver\r\n   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\r\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, String name)\r\n   at BoDi.ObjectContainer.Resolve[T](String name)\r\n   at BoDi.ObjectContainer.Resolve[T]()\r\n   at demoCCSupport.Hooks1.AfterScenario() in C:\\Users\\Arbaz.Khan\\source\\repos\\BDD With Specflow Demo\\demoCCSupport\\Hooks1.cs:line 58\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am at VCC login page.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535956,
+      "stop": 1680771535960
+    },
+    {
+      "name": "When  I enter credentials.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535963,
+      "stop": 1680771535963
+    },
+    {
+      "name": "Then  I get logged in.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535963,
+      "stop": 1680771535963
+    },
+    {
+      "name": "When  I click on CCSupport.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535963,
+      "stop": 1680771535963
+    },
+    {
+      "name": "When  I click on add user button.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535963,
+      "stop": 1680771535963
+    },
+    {
+      "name": "When  I enter Username.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535963,
+      "stop": 1680771535963
+    },
+    {
+      "name": "And  I enter Email Address.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535963,
+      "stop": 1680771535963
+    },
+    {
+      "name": "And  I click on the profile tab.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535963,
+      "stop": 1680771535964
+    },
+    {
+      "name": "And  I click the OK button.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535964,
+      "stop": 1680771535964
+    },
+    {
+      "name": "Then  The agent is successfully created.",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1680771535964,
+      "stop": 1680771535964
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1680771535949,
+  "stop": 1680771535967
+}
